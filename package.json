@@ -1,0 +1,29 @@
+{
+  "name": "undefined-is-a-function",
+  "version": "0.1.0",
+  "description": "I fixed the internet!",
+  "author": "Donavon West <github@donavon.com> (http://donavon.com)",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublishOnly": "npm test && npm run build",
+    "build": "babel src --out-dir lib --ignore '**/*.test.js'",
+    "test": "jest"
+  },
+  "keywords": [
+    "undefined"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donavon/undefined-is-a-function.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/donavon/undefined-is-a-function/issues"
+  },
+  "homepage": "https://github.com/donavon/undefined-is-a-function#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.0.3"
+  }
+}
