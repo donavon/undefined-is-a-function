@@ -17,6 +17,11 @@ All you have to do is this:
 $ npm i --save undefined-is-a-function
 ```
 
+(or if you like yarn)
+```shell
+$ yarn add undefined-is-a-function
+```
+
 Then in your code:
 
 ```js
