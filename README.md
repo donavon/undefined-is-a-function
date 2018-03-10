@@ -1,5 +1,6 @@
 # "undefined is not a function"? — It is now!
 
+[![Build Status](https://travis-ci.org/donavon/undefined-is-a-function.svg?branch=master)](https://travis-ci.org/donavon/undefined-is-a-function)
 A while ago a tweeted that I had fixed the internet.
 
 [![image](https://user-images.githubusercontent.com/887639/36948045-97e4b0ae-1fa2-11e8-819f-a6351ec3f031.png)](https://twitter.com/donavon/status/962025810432438273)
@@ -30,7 +31,7 @@ import { undefined } from 'undefined-is-a-function';
 
 Fixed! `undefined` is now a function.
 
-So I state again: 🎉🎉🎉 I fixed the internet! 🎉🎉🎉 
+So I state again: 🎉🎉🎉 I fixed the internet! 🎉🎉🎉
 
 _(or at least until the next time)_
 
