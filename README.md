@@ -1,5 +1,7 @@
 # "undefined is not a function"? — It is now!
 
+[![Build Status](https://travis-ci.org/donavon/undefined-is-a-function.svg?branch=master)](https://travis-ci.org/donavon/undefined-is-a-function) [![npm version](https://img.shields.io/npm/v/undefined-is-a-function.svg)](https://www.npmjs.com/package/undefined-is-a-function)
+
 A while ago a tweeted that I had fixed the internet.
 
 [![image](https://user-images.githubusercontent.com/887639/36948045-97e4b0ae-1fa2-11e8-819f-a6351ec3f031.png)](https://twitter.com/donavon/status/962025810432438273)
@@ -17,6 +19,11 @@ All you have to do is this:
 $ npm i --save undefined-is-a-function
 ```
 
+(or if you like yarn)
+```shell
+$ yarn add undefined-is-a-function
+```
+
 Then in your code:
 
 ```js
@@ -25,7 +32,7 @@ import { undefined } from 'undefined-is-a-function';
 
 Fixed! `undefined` is now a function.
 
-So I state again: 🎉🎉🎉 I fixed the internet! 🎉🎉🎉 
+So I state again: 🎉🎉🎉 I fixed the internet! 🎉🎉🎉
 
 _(or at least until the next time)_
 
